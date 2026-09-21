@@ -2,7 +2,12 @@
    CALLÉ APPAREL
    Black / White / Red Streetwear Theme
 ======================================== */
-
+@font-face {
+    font-family: 'BeatStreet';
+    src: url('fonts/Beatstreet.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -775,4 +780,16 @@ footer {
         padding: 17px;
     }
 
+}
+@font-face {
+    font-family: 'BeatStreet';
+    src: url('fonts/Beatstreet.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* BEAT STREET HERO FONT */
+
+.hero h1,
+.hero h1 span {
+    font-family: 'BeatStreet', 'Permanent Marker', cursive;
 }
