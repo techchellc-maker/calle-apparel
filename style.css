@@ -105,24 +105,22 @@ img {
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 75% 50%,
-            #252525 0%,
-            #111111 35%,
-            #050505 70%
-        );
+        linear-gradient(
+            90deg,
+            #050505 0%,
+            rgba(5, 5, 5, 0.98) 28%,
+            rgba(5, 5, 5, 0.85) 43%,
+            rgba(5, 5, 5, 0.35) 65%,
+            rgba(5, 5, 5, 0.05) 100%
+        ),
+        url("images/Calle-hero.jpg");
+
+    background-size: cover;
+    background-position: center 42%;
+    background-repeat: no-repeat;
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    right: -100px;
-    top: 80px;
-    width: 500px;
-    height: 500px;
-    border: 2px solid rgba(225, 6, 0, 0.15);
-    transform: rotate(45deg);
-}
+
 
 .hero-overlay {
     position: absolute;
