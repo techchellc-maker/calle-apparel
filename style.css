@@ -108,18 +108,18 @@ img {
         linear-gradient(
             90deg,
             #050505 0%,
-            rgba(5, 5, 5, 0.98) 28%,
-            rgba(5, 5, 5, 0.85) 43%,
-            rgba(5, 5, 5, 0.35) 65%,
-            rgba(5, 5, 5, 0.05) 100%
+            #050505 30%,
+            rgba(5, 5, 5, 0.95) 40%,
+            rgba(5, 5, 5, 0.60) 55%,
+            rgba(5, 5, 5, 0.20) 75%,
+            rgba(5, 5, 5, 0.10) 100%
         ),
         url("images/Calle-hero.jpg");
 
     background-size: cover;
-    background-position: center 42%;
+    background-position: 65% 38%;
     background-repeat: no-repeat;
 }
-
 
 
 .hero-overlay {
@@ -137,7 +137,8 @@ img {
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 800px;
+    width: 48%;
+    max-width: 680px;
 }
 
 .hero-small {
@@ -854,4 +855,22 @@ footer {
 .product-card .price,
 .newsletter p {
     font-family: 'Oswald', sans-serif;
+}
+/* FINAL HERO TYPE ADJUSTMENTS */
+
+.hero h1 {
+    font-family: 'Rubik Spray Paint', sans-serif;
+    font-size: clamp(72px, 8vw, 125px);
+    line-height: 0.78;
+    letter-spacing: -2px;
+    margin: 20px 0 35px;
+    transform: rotate(-1deg);
+}
+
+.hero h1 span {
+    font-family: 'Rubik Spray Paint', sans-serif;
+    color: #e10600;
+    display: block;
+    transform: rotate(-3deg);
+    letter-spacing: -2px;
 }
