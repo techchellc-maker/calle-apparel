@@ -777,3 +777,83 @@ footer {
     }
 
 }
+/* ========================================
+   CALLÉ GRAFFITI STREET STYLE
+======================================== */
+
+/* Main graffiti headings */
+.hero h1,
+.section-heading h2,
+.statement-section h2,
+.story-content h2,
+.brand-quote h2 {
+    font-family: 'Rubik Spray Paint', 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Main hero */
+.hero h1 {
+    font-size: clamp(75px, 11vw, 155px);
+    line-height: 0.82;
+    transform: rotate(-1deg);
+}
+
+/* RISE */
+.hero h1 {
+    color: #ffffff;
+}
+
+/* ABOVE */
+.hero h1 span {
+    font-family: 'Rubik Spray Paint', 'Permanent Marker', cursive;
+    color: #e10600;
+    display: block;
+    transform: rotate(-3deg);
+    letter-spacing: -2px;
+}
+
+/* Navigation gets a subtle street look */
+.nav-links a,
+.nav-shop {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn,
+.product-button {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+}
+
+/* Product names stay clean/readable */
+.product-card h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+/* Big red statement words */
+.statement-section h2 span,
+.brand-quote span {
+    font-family: 'Rubik Spray Paint', 'Permanent Marker', cursive;
+    color: #e10600;
+}
+
+/* Story heading */
+.story-content h2 {
+    transform: rotate(-1deg);
+}
+
+/* Section titles */
+.section-heading h2 {
+    transform: rotate(-1deg);
+}
+
+/* Keep normal text clean */
+.hero-description,
+.story-content p,
+.product-card .price,
+.newsletter p {
+    font-family: 'Oswald', sans-serif;
+}
