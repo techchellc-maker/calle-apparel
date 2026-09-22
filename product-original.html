@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Original Set | Callé Apparel</title>
+
+    <meta name="description"
+          content="Shop the Callé Apparel Original Set. More than clothing. A higher purpose.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Permanent+Marker&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement-bar">
+        FREE SHIPPING ON ORDERS OVER $100
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            <img src="images/calle-logo.png.jpg" alt="Callé Apparel">
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="index.html#shop">SHOP</a>
+            <a href="index.html#new-drops">NEW DROPS</a>
+            <a href="index.html#story">OUR STORY</a>
+            <a href="index.html#contact">CONTACT</a>
+        </nav>
+
+        <a href="index.html#shop" class="nav-shop">
+            SHOP →
+        </a>
+
+    </header>
+
+
+    <!-- PRODUCT -->
+    <main class="product-page">
+
+        <!-- PRODUCT PHOTOS -->
+        <section class="product-gallery">
+
+            <div class="main-product-image">
+                <img
+                    id="mainProductImage"
+                    src="images/calle-black.webp"
+                    alt="Callé Apparel Original Set">
+            </div>
+
+            <div class="product-thumbnails">
+
+                <button
+                    class="thumbnail active"
+                    data-image="images/calle-black.webp">
+                    <img src="images/calle-black.webp"
+                         alt="Black Callé Original Set">
+                </button>
+
+                <button
+                    class="thumbnail"
+                    data-image="images/calle-white.webp">
+                    <img src="images/calle-white.webp"
+                         alt="White Callé Original Set">
+                </button>
+
+                <button
+                    class="thumbnail"
+                    data-image="images/calle-blue.webp">
+                    <img src="images/calle-blue.webp"
+                         alt="Blue Callé Original Set">
+                </button>
+
+                <button
+                    class="thumbnail"
+                    data-image="images/calle-back.webp">
+                    <img src="images/calle-back.webp"
+                         alt="Callé Apparel back graphic">
+                </button>
+
+            </div>
+
+            <div class="product-statement">
+                <span>SAME HUSTLE.</span>
+                DIFFERENT LEVEL.
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCT INFORMATION -->
+        <section class="product-info">
+
+            <p class="product-eyebrow">
+                CALLÉ APPAREL
+            </p>
+
+            <h1>ORIGINAL SET</h1>
+
+            <p class="product-price">
+                $122.64
+            </p>
+
+            <div class="product-divider"></div>
+
+            <p class="product-purpose">
+                MORE THAN CLOTHING.<br>
+                A HIGHER PURPOSE.
+            </p>
+
+            <p class="product-description">
+                The Callé Apparel Original Set is designed for those
+                determined to rise above their environment. A clean,
+                comfortable streetwear set built around purpose,
+                progression, and individuality.
+            </p>
+
+
+            <!-- COLOR -->
+            <div class="product-option">
+
+                <div class="option-heading">
+                    <span>COLOR</span>
+                    <span id="selectedColor">BLACK</span>
+                </div>
+
+                <div class="color-options">
+
+                    <button
+                        class="color-option black selected"
+                        data-color="BLACK"
+                        aria-label="Black">
+                        <span></span>
+                        BLACK
+                    </button>
+
+                    <button
+                        class="color-option white"
+                        data-color="WHITE"
+                        aria-label="White">
+                        <span></span>
+                        WHITE
+                    </button>
+
+                    <button
+                        class="color-option blue"
+                        data-color="BLUE"
+                        aria-label="Blue">
+                        <span></span>
+                        BLUE
+                    </button>
+
+                    <button
+                        class="color-option red"
+                        data-color="RED"
+                        aria-label="Red">
+                        <span></span>
+                        RED
+                    </button>
+
+                    <button
+                        class="color-option grey"
+                        data-color="GREY"
+                        aria-label="Grey">
+                        <span></span>
+                        GREY
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- SIZE -->
+            <div class="product-option">
+
+                <div class="option-heading">
+                    <span>SELECT SIZE</span>
+
+                    <button class="size-guide">
+                        SIZE GUIDE
+                    </button>
+                </div>
+
+                <div class="size-options">
+
+                    <button class="size-option" data-size="S">
+                        S
+                    </button>
+
+                    <button class="size-option" data-size="M">
+                        M
+                    </button>
+
+                    <button class="size-option" data-size="L">
+                        L
+                    </button>
+
+                    <button class="size-option" data-size="XL">
+                        XL
+                    </button>
+
+                    <button class="size-option" data-size="2XL">
+                        2XL
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUANTITY -->
+            <div class="product-option">
+
+                <div class="option-heading">
+                    <span>QUANTITY</span>
+                </div>
+
+                <div class="quantity-selector">
+
+                    <button id="minusQuantity">−</button>
+
+                    <span id="quantity">1</span>
+
+                    <button id="plusQuantity">+</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- SHOPIFY READY BUTTON -->
+            <button class="add-to-cart" id="addToCart">
+                ADD TO CART →
+            </button>
+
+            <p class="shopify-note">
+                Secure checkout powered by Shopify
+            </p>
+
+
+            <!-- BENEFITS -->
+            <div class="product-benefits">
+
+                <div>
+                    <strong>FAST SHIPPING</strong>
+                    <span>Free shipping over $100</span>
+                </div>
+
+                <div>
+                    <strong>SECURE CHECKOUT</strong>
+                    <span>Shop with confidence</span>
+                </div>
+
+                <div>
+                    <strong>EASY RETURNS</strong>
+                    <span>Simple return process</span>
+                </div>
+
+            </div>
+
+
+            <!-- DETAILS -->
+            <div class="product-accordions">
+
+                <details>
+                    <summary>PRODUCT DETAILS</summary>
+
+                    <p>
+                        Callé Apparel Original matching T-shirt and
+                        shorts set featuring signature Callé branding.
+                    </p>
+                </details>
+
+
+                <details>
+                    <summary>SHIPPING & RETURNS</summary>
+
+                    <p>
+                        Shipping and return information will be
+                        finalized before checkout launches.
+                    </p>
+                </details>
+
+
+                <details>
+                    <summary>CARE INSTRUCTIONS</summary>
+
+                    <p>
+                        Wash with similar colors. Follow the garment
+                        care label for best results.
+                    </p>
+                </details>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- BRAND MESSAGE -->
+    <section class="product-brand-banner">
+
+        <p>CALLÉ APPAREL</p>
+
+        <h2>
+            WEAR YOUR
+            <span>PURPOSE.</span>
+        </h2>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-brand">
+
+            <img
+                src="images/calle-logo.png.jpg"
+                alt="Callé Apparel">
+
+            <p>
+                MORE THAN CLOTHING.<br>
+                A HIGHER PURPOSE.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="index.html">HOME</a>
+            <a href="index.html#shop">SHOP</a>
+            <a href="index.html#new-drops">NEW DROPS</a>
+            <a href="index.html#story">OUR STORY</a>
+            <a href="index.html#contact">CONTACT</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <p>FOLLOW CALLÉ</p>
+
+            <a href="#">INSTAGRAM</a>
+            <a href="#">TIKTOK</a>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Callé Apparel. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- PRODUCT PAGE SCRIPT -->
+    <script>
+
+        /* IMAGE GALLERY */
+
+        const mainImage =
+            document.getElementById("mainProductImage");
+
+        const thumbnails =
+            document.querySelectorAll(".thumbnail");
+
+        thumbnails.forEach(thumbnail => {
+
+            thumbnail.addEventListener("click", function () {
+
+                mainImage.src =
+                    this.dataset.image;
+
+                thumbnails.forEach(item =>
+                    item.classList.remove("active")
+                );
+
+                this.classList.add("active");
+
+            });
+
+        });
+
+
+        /* COLORS */
+
+        const colors =
+            document.querySelectorAll(".color-option");
+
+        const selectedColor =
+            document.getElementById("selectedColor");
+
+        colors.forEach(color => {
+
+            color.addEventListener("click", function () {
+
+                colors.forEach(item =>
+                    item.classList.remove("selected")
+                );
+
+                this.classList.add("selected");
+
+                selectedColor.textContent =
+                    this.dataset.color;
+
+            });
+
+        });
+
+
+        /* SIZES */
+
+        const sizes =
+            document.querySelectorAll(".size-option");
+
+        let chosenSize = "";
+
+        sizes.forEach(size => {
+
+            size.addEventListener("click", function () {
+
+                sizes.forEach(item =>
+                    item.classList.remove("selected")
+                );
+
+                this.classList.add("selected");
+
+                chosenSize =
+                    this.dataset.size;
+
+            });
+
+        });
+
+
+        /* QUANTITY */
+
+        let quantity = 1;
+
+        const quantityDisplay =
+            document.getElementById("quantity");
+
+        document
+            .getElementById("plusQuantity")
+            .addEventListener("click", function () {
+
+                quantity++;
+
+                quantityDisplay.textContent =
+                    quantity;
+
+            });
+
+
+        document
+            .getElementById("minusQuantity")
+            .addEventListener("click", function () {
+
+                if (quantity > 1) {
+
+                    quantity--;
+
+                    quantityDisplay.textContent =
+                        quantity;
+
+                }
+
+            });
+
+
+        /* TEMPORARY CART */
+
+        document
+            .getElementById("addToCart")
+            .addEventListener("click", function () {
+
+                if (!chosenSize) {
+
+                    alert("Please select a size.");
+
+                    return;
+
+                }
+
+                alert(
+                    "You selected " +
+                    selectedColor.textContent +
+                    " / " +
+                    chosenSize +
+                    " / Quantity " +
+                    quantity +
+                    ". Shopify checkout will be connected soon."
+                );
+
+            });
+
+    </script>
+
+</body>
+</html>
